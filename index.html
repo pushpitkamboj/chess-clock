@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Clock</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="setup">
+        <h1>Chess Clock Setup</h1>
+        <label for="timeInput">Set Time (minutes):</label>
+        <input type="number" id="timeInput" min="1">
+        <button id="start">Start</button>
+    </div>
+    <div id="clock" style="display: none;">
+        <div id="player1Section">
+            <button id="player1">Player 1</button>
+        </div>
+        <div id="clockSection">
+            <div id="display1">Player 1: 00:00</div>
+            <div id="display2">Player 2: 00:00</div>
+            <button id="startClock">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div id="player2Section">
+            <button id="player2">Player 2</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
